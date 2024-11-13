@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--BOTONES DEL MENU-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="color-bar">
+    <div class="dropdown">
+        <button onclick="toggleDropdown('dropdown1')" class="dropbtn">Tiendas</button>
+        <div id="dropdown1" class="dropdown-content">
+            <a href="abarrotes.html">Abarrotes</a>
+            <a href="#">Verduderias</a>
+            <a href="#">Pequeños negocios</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button onclick="toggleDropdown('dropdown2')" class="dropbtn">Subir mi tienda</button>
+        <div id="dropdown2" class="dropdown-content">
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button onclick="toggleDropdown('dropdown3')" class="dropbtn">Repartidor</button>
+        <div id="dropdown3" class="dropdown-content">
+            <a href="#">Iniciar sesión</a>
+            <a href="#">Postularme</a>
+            <a href="#">Información</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown('dropdown2')" class="dropbtn">Sobre nosotros</button>
+        <div id="dropdown2" class="dropdown-content">
+        </div>
+    <div class="dropdown">
+            <button  onclick="toggleDropdown('dropdown2')" class="dropbtn">Lista de mandado</button>
+            <div id="dropdown2" class="dropdown-content">
+       </div>
+        </div>
+    </div>
+</div>
+<div>
+   <p>Tiendas recomendadas</p>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="imagePanel">
+    <a href="pagina1.html"><img id="currentImage" src="globo1.jpg" alt="Imagen 1"></a>
+    <a href="pagina2.html"><img id="nextImage" src="globo2.jpg" alt="Imagen 2"></a>
+    <button id="prevButton" class="navButton">&#8249;</button>
+    <button id="nextButton" class="navButton">&#8250;</button>
+  </div>
+  <div>
+    <p>¿Qué hace un repartidor?</p>
+  <table class="coni">
+    <tr class="coni">
+        <td style="border-top-right-radius: 10px;"  class="coni">
+            <ul>
+                <li><p class="coni2">Para comenzar, el repartidor debera postularse, una vez aceptado en la página se le dará una contraseña y usuario.</p> </li>
+                <li><p class="coni2">Con estos datos podrá iniciar sesión y verá las listas de mandado disponibles.</p></li>
+                <li><p class="coni2">Un repartidor se encarga de realizar las listas
+                    de mandados que le aparezcan en la página.</p></li>
+                <li><p class="coni2"> Dependiendo de la ubicación del cliente y de las tiendas del mandado, el repartidor puede decidir
+                    si tomar el mandado o dejarselo a otro repartidor.</p></li>
+            </ul>     
+        </td>
+    </tr>
+  </table>
+  <div>
+    <div>
+        <p style="margin-block-start: 60px;">¿Cómo subo mi tienda?</p>
+      <table class="coni">
+        <tr class="coni">
+            <td style="border-top-right-radius: 10px;"  class="coni">
+                <ul>
+                    <li><p class="coni2">Subir tu negocio es muy facíl y sencillo.</p> </li>
+                    <li><p class="coni2">Lo unico que tienes que hacer es dar click en "Subir mi tienda" y llenar el formulario con los datos que se piden.</p></li>
+                    <li><p class="coni2">Una vez aceptada tu solicitud se te pedirá un catalogo con tus productos y precios.</p></li>
+                    <li><p class="coni2">Y lo mejor es que no tiene ningún costo.</p></li>
+                </ul>     
+            </td>
+        </tr>
+      </table>
+  </div>
+  <div>
+    <p style="margin-block-start: 60px;">¿Cómo pago mi mandado?</p>
+  <table class="coni">
+    <tr class="coni">
+        <td style="border-top-right-radius: 10px;"  class="coni">
+            <ul>
+                <li><p class="coni2">Todos los pagos son en efectivo.</p> </li>
+                <li><p class="coni2">El pago del mandado es directo al repartidor, acompañado de una propina, la cual tiene que escribir en su lista de mandado antes de enviarla.</p></li>
+                <li><p class="coni2">La propina no puede ser menor a $15</p></li>
+                <li><p class="coni2">Recuerde pagar con cambio, los repartidores no llevan mucho cambio. </p></li>
+            </ul>     
+        </td>
+    </tr>
+  </table>
+</div>
+</div>
+<div>
+    <img class="rep" src="moto.png" alt="">
+    
+</div>
+<div>
+    <img class="tien" src="tienda.png" alt="">
+    <img class="ajo" src="ajolopeso.png" alt="">
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
